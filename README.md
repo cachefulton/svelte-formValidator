@@ -3,12 +3,13 @@ I was tired of adding error messages and validation to my forms. So I made somet
 This adds error messages, submit handers, and focus events
 
 
+
 ### Instructions
 This depends on yup objects to validate a form.
 This depends on data-form-validator attributes on form elements that correspond to yup object keys.
 There should be some form data that also corresponds to yup object keys with exactness.
 Pass these things as props to YupFormValidator import element
-```js
+```ts
   // Yup schema object
   yupSchema: ObjectSchema<any> 
 
